@@ -66,5 +66,7 @@ Return fields
 Response will contain above reponse fields for lease
 
 ### Close Lease
-#### `/api/v1/provider/lease/close/?dseq=&gseq= (Lease List)`
+#### `/api/v1/provider/lease/close/?lease_id`
+lease_id contains - tenant_address, dseq and gseq
+
 This API will close lease on request of provider and settle AKTs.
